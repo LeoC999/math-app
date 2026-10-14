@@ -12,7 +12,14 @@ public class MathApp {
         float bobsalary = 999.99f;
         float garysalary = 784.87f;
         double highestsalary = bobsalary - garysalary;
-        System.out.println("Highest salary is: " + highestsalary);
+        System.out.println("Bob's salary monthly is more than Gary by: " + highestsalary);
+
+        double carPrice = 23.000;
+        double truckPrice = 43.000;
+        double cheaper = carPrice - truckPrice;
+        System.out.println("the car is cheaper than the truck by " + cheaper);
+
+
 
 
 
