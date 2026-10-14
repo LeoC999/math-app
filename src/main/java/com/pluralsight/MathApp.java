@@ -16,8 +16,16 @@ public class MathApp {
 
         double carPrice = 23.000;
         double truckPrice = 43.000;
-        double cheaper = carPrice - truckPrice;
-        System.out.println("the car is cheaper than the truck by " + cheaper);
+        double cheaper = Math.max(carPrice, truckPrice);
+        System.out.println("The more expensive is " + cheaper+ "K which is the truck");
+
+        double radious = 7.25;
+        double area = radious * radious;
+        System.out.println("The area is " + area);
+
+
+
+
 
 
 
