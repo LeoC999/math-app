@@ -23,6 +23,10 @@ public class MathApp {
         double area = radious * radious;
         System.out.println("The area is " + area);
 
+        double spared = 5.0;
+        double sqaureroot = Math.sqrt(spared);
+        System.out.println("The square root is " + sqaureroot);
+
 
 
 
