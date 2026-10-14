@@ -38,6 +38,13 @@ public class MathApp {
         double abpos = Math.abs(neg);
         System.out.println("The absolute pos is " + abpos);
 
+        double rando1 = 1;
+        double rando2 = 0;
+        double rando = rando2 + Math.random() * (rando1 - rando2);
+        System.out.println("The random pos is " + rando);
+
+
+
 
 
 
