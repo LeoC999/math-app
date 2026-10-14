@@ -34,6 +34,10 @@ public class MathApp {
         double distance = Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
         System.out.println("The distance is " + distance);
 
+        float neg = -3.8f;
+        double abpos = Math.abs(neg);
+        System.out.println("The absolute pos is " + abpos);
+
 
 
 
